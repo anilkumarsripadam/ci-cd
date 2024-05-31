@@ -15,4 +15,4 @@ COPY /target/ci-cd-0.0.1-SNAPSHOT.jar /app
 EXPOSE 8080
 
 # Run jar file when the container launches
-CMD ["java", "-jar", "docker-java-app-example.jar"]
+CMD ["java", "-jar", "ci-cd-0.0.1-SNAPSHOT.jar"]
